@@ -4,6 +4,9 @@ merged https://github.com/tildearrow/furnace/commit/f665f0aa081a3149d29ba7fd55bc
 
 
 ##Build at your risk! no warranty! Would delete the branch at will!  
+#Build syntax 
+cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_C_FLAGS="-O2" -DCMAKE_CXX_FLAGS="-O2 -Wall -Wextra -Wno-unused-parameter -Wno-cast-function-type" -DBUILD_SHARED_LIBS=OFF -DSUPPORT_XP=ON -DWITH_RENDER_DX11=OFF -DSDL_SSE2=OFF -DSDL_SSE3=OFF -DENABLE_SSE=OFF -DENABLE_SSE2=OFF -DENABLE_AVX=OFF -DENABLE_AVX2=OFF -DCMAKE_SYSTEM_NAME=Windows -DCMAKE_C_COMPILER=i686-w64-mingw32-gcc-posix -DCMAKE_CXX_COMPILER=i686-w64-mingw32-g++-posix -Bbuild-xp32
+
 
 
 ![screenshot](papers/screenshot3.png)
