@@ -495,6 +495,7 @@ extern/YMF262-LLE/fmopl3.c
 extern/YMF276-LLE/fmopn2.c
 extern/ESFMu/esfm.c
 extern/ESFMu/esfm_registers.c
+extern/ESFMu/InpOut32Helper.cpp
 
 extern/pwrnoise/pwrnoise.c
 
