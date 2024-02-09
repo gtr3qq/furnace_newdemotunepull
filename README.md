@@ -12,6 +12,8 @@ cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_C_FLAGS="-O2" -DCMAKE_CXX_FLAGS=
 
 you can change the portaddr. in one of the header file.................
 
+Tested on a I810/ICH2R chipset with Tualatin Celeron at 1.77ghz(oc). ATI HD2400 GFX.
+
 ![screenshot](papers/screenshot3.png)
 
 the biggest multi-system chiptune tracker ever made!
